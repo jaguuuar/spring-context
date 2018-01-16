@@ -5,20 +5,17 @@ public enum OutputFormat {
     JSON("json"),
     XML("xml");
 
-    private String typeName;
+    private String formatName;
 
     OutputFormat(String typeName) {
-        this.typeName = typeName;
+        this.formatName = typeName;
 
     }
 
-    public String getTypeName() {
-        return typeName;
+    public String getFormatName() {
+        return formatName;
     }
 
-    public void setTypeName(String typeName) {
-        this.typeName = typeName;
-    }
 }
 
 
